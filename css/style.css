@@ -1,4 +1,4 @@
-/*************************************************
+    /*************************************************
     GENERAL STYLES
  *************************************************/
 *,
@@ -127,3 +127,53 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* soluzione mobile  */
+
+ @media screen and (max-width:480px){
+    body{
+        /* background-color: crimson; */
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+   .container h2{
+    width: 25rem;
+   }
+
+   .text{
+    width: 95%;
+   }
+
+   .card{
+    width: 25rem;
+   }
+
+   .col{
+    margin-bottom: 3rem;
+   }
+
+   li p{
+    width: 50%;
+   }
+
+   .steps{
+    margin-bottom: 0;
+   }
+
+   .why-us{
+    background-color: rgb(34, 34, 34);
+    padding-top: 2rem;
+    margin-bottom: 0;
+   }
+
+   .why-us h2{
+    width: 30%;
+    position: relative;
+    left: 4rem;
+   }
+
+
+ }
